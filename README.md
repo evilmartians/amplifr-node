@@ -7,18 +7,14 @@
 ```js
 const Amplifr = require('amplifr-node');
 
-const client = new Amplifr('your amplifr token strin');
+const client = new Amplifr('your amplifr token string');
 
-client.projects().then(prs => {
-  console.log(JSON.stringify(prs));
-  let project = client.project(prs[0].id);
+client.projects().then(res => {
+  console.log(JSON.stringify(res));
+  let project = client.project(res.projects[0].id);
 
-  project.info().then(info => {
-    console.log(JSON.stringify(info));
-  })
-
-  project.posts({ today: true }).then(todayPosts => {
-    console.log(todayPosts.length);
+  project.posts({ today: true }).then(res => {
+    console.log(res.posts.length);
   })
 })
 ```
