@@ -19,6 +19,6 @@
     "nsp": "^2.3.3"
   },
   "scripts": {
-    "test": "eslint *.js && nsp check"
+    "test": "eslint *.js && eslint ./lib/*.js && nsp check"
   }
 }
