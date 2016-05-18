@@ -1,0 +1,24 @@
+{
+  "name": "amplifr-node",
+  "private": true,
+  "description": "Amplifr API library for node.js",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Alex Gaziev",
+    "email": "alex.gaziev@gmail.com",
+    "url": "https://github.com/gazay"
+  },
+  "dependencies": {
+    "request-promise": "3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb-base": "^2.0.0",
+    "eslint-plugin-import": "^1.7.0",
+    "nsp": "^2.3.3"
+  },
+  "scripts": {
+    "test": "eslint *.js && nsp check"
+  }
+}
