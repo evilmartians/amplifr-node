@@ -2,7 +2,7 @@
 
 ## Usage
 
-`npm -i amplifr-node` - someday, right now it's not public
+`npm -i amplifr-node`
 
 ```js
 const Amplifr = require('amplifr-node');
