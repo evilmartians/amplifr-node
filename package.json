@@ -3,7 +3,7 @@
   "description": "Amplifr API library for node.js",
   "license": "MIT",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Alex Gaziev",
     "email": "alex.gaziev@gmail.com",
